@@ -36,7 +36,7 @@ pip install requests
 ### Web development technique: 
   ![Ajax](https://www.intelegain.com/wp-content/uploads/2015/07/ajax.png.pagespeed.ce.GYgbrzG4-W.png)
 ## CRUX
-We get the current location of the user and display information for trips from google api and weather api to the user . Since nearby API shows places around 50KM radius so we calculate the distance and direction in all 8 direction ,then we calculate the farthest poin on each direction and search for the places and information from that point,this is done for all farthest point .(Distance and Directions are calculated using co-ordinates) 
+We get the current location of the user and display information for trips from google api and weather api to the user . Since nearby API shows places around 50KM radius so we calculate the distance and direction in all 8 direction ,then we calculate the farthest point on each direction and search for the places and information from that point,this is done for all farthest point .(Distance and Directions are calculated using co-ordinates) 
 ![CRUX](https://i.imgur.com/Kr4Vin6.jpg)
 ```
 
