@@ -54,7 +54,7 @@
 
 											var i;
                      for (i = 0; i < response.length; i++) {
-											L.marker([response[i][2]['lat'],response[i][2]['lng']).addTo(mymap)
+											L.marker([response[i][2]['lat'],response[i][2]['lng']]).addTo(mymap)
 												.bindPopup("<b>"+response[i][1]+"</b><br />Distance :"+response[i][3]+"<br/> Weather:"+response[i][4][0]+"Temperature"+response[i][4][1]).openPopup();
                        }
 											 L.circle([position.coords.latitude,position.coords.longitude], 750, {
